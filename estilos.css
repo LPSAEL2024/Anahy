@@ -1,0 +1,661 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.portada{
+    width: 300px;
+    height: 600px;      
+    background-image: url(Fondo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+
+.sobre{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 300px;
+    position: absolute;
+    opacity: 0;
+
+    animation-name: aparece;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.años{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 150px;
+    position: absolute;
+
+    animation-name: aparece;
+    animation-duration: 3s;
+    
+
+}
+
+.antorcha{
+    width: 70px;
+    margin-top: 450px;
+    margin-left: 120px;
+    opacity: 0;
+
+    animation-name: aparece;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes aparece {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.lila{
+    position: absolute;
+    width: 300px;
+    height: 600px;
+}
+
+.caja2{
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+.fondo2{
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    animation-name: aparecFondo2;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes aparecFondo2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.musica{
+    position: absolute;
+    width: 220px;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+.toca{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    margin-top: 120px;
+    margin-left: 35px;
+}
+
+.video{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 40px;
+    transform: scale(0);
+
+    animation-name: crecerVideo;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes crecerVideo {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.caja3{
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+.fondo3{
+    width: 300px;
+    height: 600px;
+    position: absolute;
+
+    animation-name: apareceFondo3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes apareceFondo3 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.rollo{
+    width: 280px;
+    height: 550px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 7px;
+
+    animation-name: creceRollo;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes creceRollo {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.oracion{
+    width: 150px;
+    height: 400px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70px;
+    opacity: 0;
+
+    animation-name: apareceOracion;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes apareceOracion {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.caja4{
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+.Fondo4{
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    opacity: 0;
+
+    animation-name: aparece4;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aparece4 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.antorcha4{
+    width: 60px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    animation-name: rotarAntorcha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotarAntorcha {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 15deg;
+    }
+    100%{
+        rotate: 0DEG;
+    }
+
+}
+
+.antoercha5{
+    position: absolute;
+    width: 60px;
+    margin-top: 500px;
+    margin-left: 200px;
+
+    animation-name: rotar6;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotar6 {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 15deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
+
+.padres{
+    position: absolute;
+    width: 200px;
+    margin-top: 130px;
+    margin-left: 60px;
+
+    animation-name: padres;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes padres {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.honor{
+    position: absolute;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 220px;
+    opacity: 0;
+
+    animation-name: honor;
+    animation-duration: 2s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes honor {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.nomAna{
+    position: absolute;
+    width: 200px;
+    margin-top: 290px;
+    margin-left: 50px;
+    opacity: 0;
+
+    animation-name: apareceNom;
+    animation-duration: 2s;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes apareceNom {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.mariposa{
+    width: 100px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 180px;
+
+    animation-name: apareceMari;
+    animation-duration: 2s;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes apareceMari {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.caja5{
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    
+}
+
+@keyframes apareceCaja5 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.cajaMU{
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    opacity: 0;
+
+    animation-name: apareceCaja5;
+    animation-duration: 2s;
+    animation-delay: 14s;
+    animation-fill-mode: forwards;
+}
+
+.muñeca{
+    position: absolute;
+    width: 200px;
+    margin-top: 350px;
+    margin-left: 50px;
+
+    animation-name: creceMuñeca;
+    animation-duration: 2s;
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes creceMuñeca {
+    0%{
+        opacity: 1;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.mariposa5{
+    position: absolute;
+    width: 100px;
+    margin-top: 330px;
+    margin-left: 170px;
+
+}
+
+.caja6{
+    width: 300px;
+    min-height: 600px;
+    margin: auto;
+}
+
+.fondo6{
+    width: 300px;
+    min-height: 600px;
+    position: absolute;
+
+    animation-name: aparece6;
+    animation-duration: 2s;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes aparece6 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.sol{
+    width: 100px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    animation-name: solCrece;
+    animation-duration: 2s;
+    animation-delay: 20s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes solCrece {
+    0%{
+        opacity: 1;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.fecha{
+    width: 220px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 40px;
+
+    animation-name: fechaApaprece;
+    animation-duration: 2s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fechaApaprece {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.brindis{
+    position: absolute;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 50px;
+
+    animation-name: brinCrece;
+    animation-duration: 2s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes brinCrece {
+    0%{
+        opacity: 1;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.vestimenta{
+    position: absolute;
+    width: 200px;
+    margin-top: 450px;
+    margin-left: 50px;
+
+    animation-name: VestimentaAparece;
+    animation-duration: 2s;
+    animation-delay: 22s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes VestimentaAparece {
+    0%{
+        opacity: 1;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.Ubicacion{
+    position: absolute;
+    width: 130px;
+    margin-top: 400px;
+    margin-left: 80px;
+
+    animation-name: ubicaCrece;
+    animation-duration: 2s;
+    animation-delay: 22s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes ubicaCrece {
+    0%{
+        opacity: 1;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.caja7{
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+.fondo7{
+    position: absolute;
+    width: 300px;
+    height: 600px;
+
+    animation-name: aparece7;
+    animation-duration: 2s;
+    animation-delay: 23s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes aparece7 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.muñeca22{
+    position: absolute;
+    width: 220px;
+    margin-top: 110px;
+    margin-left: 40px;
+
+    animation-name: muñecaCrece;
+    animation-duration: 2s;
+    animation-delay: 25s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes muñecaCrece {
+    0%{
+        opacity: 1;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.maripo6{
+    position: absolute;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 160px;
+}
+
+.esperamos{
+    position: absolute;
+    width: 200px;
+    margin-top: 430px;
+    margin-left: 50px;
+
+    animation-name: espera;
+    animation-duration: 2s;
+    animation-delay: 27s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes espera {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
